@@ -2,8 +2,8 @@ from employee import Worker
 
 
 class Brigadier(Worker):
-    def __init__(self, name: str, age: int, type_of_work: str, experience_in_years: float, salary: float
-                 , rating: float):
+    def __init__(self, name: str, age: int, type_of_work: str, experience_in_years: float, salary: float,
+                 rating: float):
         super().__init__(name, age, type_of_work, experience_in_years, salary)
         self.__rating = rating
 
